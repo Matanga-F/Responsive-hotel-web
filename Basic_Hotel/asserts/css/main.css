@@ -1,0 +1,434 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+body{
+    background-color: grey;
+    color: black;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+}
+
+main{
+    max-width: 1200px;
+    background-color: antiquewhite;
+    margin: auto;
+    /* box-shadow: 10px 2px rgba(0, 0, 10, 0.5),10px 2px rgba(0, 0, 10, 0.5) ; */
+}
+
+.head-section {
+    height: 500px;
+    width: auto;
+    position: relative;
+}
+div >.background {
+    height: inherit;
+    background-image: url(../images/jeffrey-francisco-_Ei9f33bQ1A-unsplash.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    z-index: 0;
+}
+
+#head-nav {
+    margin: auto;
+
+    width: 82.5%;
+    height: 90px;
+    position: fixed;
+    background-color: rgba(0, 0, 0, 0.6);
+}
+
+#head-nav h1{
+    color: rgb(244, 239, 252);
+    position: absolute;
+    padding-left: 0.5em;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+#head-nav h1::first-letter{
+    font-size:60px;
+}
+
+#head-nav ul {
+    margin-top: 1.2em;
+    float: right;
+}
+
+ul >a:last-child {
+    margin-right: 1em
+}
+
+ul > a{
+    text-decoration: none;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    padding-left: 5px;
+    padding-right: 5px;
+    font-size: 20px;
+    text-transform: uppercase;
+    color: rgb(173, 173, 173);
+    transition:  all 1s;
+}
+
+ul >a:hover{
+    color: white;
+    content: "";
+    padding-bottom: 0.2em;
+    border-color: blue;
+    box-sizing: border-box;
+    border-bottom-width: 2em;
+    border-bottom: 3px solid rgb(67, 83, 228);
+    background-color: rgba(0, 0, 0, 0);
+}
+
+
+/* ===============================================================================================
+Landing page Design
+=================================================================================================== */
+.welcome {
+    text-align: center;
+}
+
+.welcome h1{
+    padding-top: 4em;
+    padding-bottom: 0em;
+    color: rgb(218, 99, 1);
+    text-transform: capitalize;
+    border-left: 2px solid #333;
+    font-family: monospace;
+}
+
+
+.welcome p {
+    padding-top: 0;
+    font-size: 27;
+    font-weight: bold;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: rgb(0, 0, 0);
+    text-shadow: 1px 1px grba(0, 0, 0, 0.8);
+    line-height: 3em;
+}
+
+.check-availability{
+    padding-top: 5em;
+    padding-left: 4em;
+}
+
+.check-availability button{
+    background-color: rgba(0, 0, 0, 0.4);
+    outline: none;
+    font-weight:bold;
+    font-family: "Raleway", sans-serif;
+    text-transform: uppercase;
+    font-weight: 500;
+    font-size: 14px;
+    letter-spacing: 0.5px;
+    display: inline-block;
+    padding: 10px 28px;
+    transition: all;
+    transition: 1s;
+    border: 2px solid #fff;
+    color: #fff;
+
+}
+.check-availability button:hover{
+    border-radius: 8px;
+    background-color: rgba(0, 0, 10, 0.8);
+    color: white;
+    cursor: pointer;
+
+}
+
+
+
+
+/* ===============================================================================
+About Us Design
+=================================================================================== */
+.about-section{
+    height: 400px;
+    background-color: black;
+    color: white;
+    background-color:rgb(1, 1, 29);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    z-index: 0;
+}
+
+.about-section h1 {
+    text-align: center;
+    margin: auto;
+    padding-top: 1em;
+    letter-spacing: 0.05em;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color:rgb(247, 248, 255);
+    text-shadow: 1px 3px rgba(0, 0, 0, 0.4);
+    animation: fulufhelo 5s  alternate;
+    
+}
+
+
+div .section {
+    width: 55%;
+    margin: auto;
+    padding: 10px;
+}
+
+.para p{
+    font-weight: 500;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    padding: 10px;
+    line-height: 1.2em;
+    letter-spacing: 0.1em;
+}
+
+.fonts-icons{
+    text-align:  center;
+    
+}
+.fonts-icons a{
+    padding: .5em;
+}
+/* ===============================================================================
+Gallery Design
+================================================================================== */
+.gallery {
+    width: 100%;
+    background-color: black;
+    height: 500px
+}
+.gallery img {
+    width: 80%;
+
+    margin: auto;
+    height: 400px;
+}
+
+
+/* ===============================================================================
+
+Form Design
+================================================================================== */
+
+.form {
+    background-image:  url(../images/home_page.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    height: 450px;
+    color: white;
+
+}
+
+.form-style{
+    width: 100%;
+    height: 450px;
+    background-color: rgba(0, 0, 0, 0.7);
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    padding: 10px;
+    line-height: 1.2em;
+    letter-spacing: 0.1em;
+}
+
+.form-style p {
+    padding-top: 1em;
+}
+
+.form-showcase {
+        width: 90%;
+        padding-top: 2em;
+        margin: auto;
+}
+.form-showcase input{
+    margin-bottom: 1em;
+}
+.form-showcase input, textarea {
+    width: 50%;
+    background: none;
+    overflow: hidden;
+    border: none;
+    border-bottom: 3px solid green;
+    outline: none;
+    height: 1em;
+    color:aqua;
+    font-size: 20px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    line-height: 1.2em;
+    letter-spacing: 0.1em;
+    transition: all 1s;
+}
+.form-showcase input:focus, textarea:focus{
+    height: 2em;
+    border-bottom: 3px solid rgb(4, 29, 250);
+}
+.form-showcase input:hover, textarea {
+    height: 2em;
+}
+/* ===============================================================================
+
+Service Design
+================================================================================== */
+
+.services {
+    height: 700px;
+    background: rgb(9, 0, 29);
+    color: white;
+    animation: backgrounds 30s ease-in-out infinite alternate;
+
+}
+
+@keyframes backgrounds {
+    0% {
+        background-image:  url(../images/service/events1.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    }
+    25% {
+        background-image:  url(../images/service/events2.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    }
+    50% {
+        background-image:  url(../images/service/pool2.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    }
+    75% {
+        background-image:  url(../images/service/pool1.jpg);
+    background-position: center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    }
+    100% {
+        background-image:  url(../images/service/pool3.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    }
+}
+
+.service{
+    color: white;
+    height: 500px;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+.service h1 {
+    padding: 1em;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.service-grid {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    align-content: center;
+    grid-gap: 2em;
+    justify-content: center;
+    
+}
+.card img {
+    width: 300px;
+    height: 200px;
+    box-shadow: 3px 4px rgba(255, 254, 254, 0.2);
+}
+
+
+.text {
+    text-align: center;
+    color: white;
+    font-weight: 500;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    padding: 10px;
+    line-height: 1.2em;
+    letter-spacing: 0.1em;
+    text-decoration: none;
+    opacity: 0;
+    transition: all 3s;
+    padding: 0;
+}
+
+.card:hover .text {
+    text-transform: uppercase;
+    opacity: 1;
+}
+
+.service-grid a {
+    text-decoration: none;
+    transition: all 1s;
+}
+
+.service-grid a:hover {
+    transform: translateY(-15px);
+}
+/* ===============================================================================
+
+Footer Design
+================================================================================== */
+
+.footer {
+    height: 180px;
+    background-color: black;
+    color: white;
+}
+
+.section-footer {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    margin: auto;
+    width: auto;
+    
+}
+
+#footer .social-links a {
+    font-size: 18px;
+    display: inline-block;
+    background: #ef6603;
+    color: #fff;
+    line-height: 1;
+    padding: 8px 0;
+    margin-right: 4px;
+    border-radius: 50%;
+    text-align: center;
+    width: 36px;
+    height: 36px;
+    transition: 0.3s;
+}
+
+.section-footer img {
+    width: 80px;
+    padding-left: 1em;
+    height: 80px;
+}
+
+.section-footer h1 {
+    color: white;
+    font-weight: 500;
+    padding-left: 1em;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    line-height: 1.2em;
+    letter-spacing: 0.1em;
+}
+
+.footer p {
+    text-align: center;
+    color: white;
+    font-weight: 500;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    line-height: 1.2em;
+    letter-spacing: 0.1em;
+}
